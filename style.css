@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Share&display=swap');
+            html, body{
+                height: 100%;
+            }
+             body {
+                background-color:rgb(131, 123, 127);
+             }
+            .calculator{
+                background: 
+                #02395b;
+                width: 300px;
+                padding: 15px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                border-radius: 5px;
+                box-shadow: 0 6px 0 rgb(24, 23, 23), 0 8px 10px rgb(4, 247, 255);
+            }
+            .result{
+                background-color: cadetblue;
+                color: aqua;
+                width: 90%;
+                margin: 8px 0 20px 10px;
+                text-align: right;
+                height: 50px;
+                line-height: 50px;
+                font-size: 35px;
+                padding-right:10px;
+                overflow: hidden;
+                font-family:'Times New Roman', Times, serif;
+                box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5), inset 0 2px 0 red;
+            }
+            ul{
+                padding: 0;
+                margin: 0;
+            }
+            ul button{
+                list-style: none;
+                background: rgb(161, 156, 156);
+                padding: 10px;
+                width: 15%;
+                float: left;
+                color: rgb(6, 6, 6);
+                margin: 5px;
+                cursor: pointer;
+                font-size: 2opx;
+                border-radius: 5px;
+                box-shadow: 0 5px 0 #1f1b1b, inset 0 3px 5px rgba(12, 11, 11, 0);
+                font-family: 'share', cursive;
+            }
+            ul button:active{
+                position: relative;
+                top: 3px;
+            }
+            ul button:nth-child(16) {
+                width: 70%;
+            }
+            ul button:last-child{
+                margin-bottom: -45px;
+                height: 40px;
+                
+            }
+            .Signature{
+                color: rgb(233, 226, 230);
+                font-size: 0.75rem;
+                text-align: right;
+                position:absolute;
+                top: 4px;
+                right: 5px;
+                z-index: -1;
+                font-family: 'share', cursive;
+            }
+        
