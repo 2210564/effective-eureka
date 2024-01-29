@@ -1,5 +1,10 @@
 # effective-eureka
+
+
 MY Project: Web Calculator
+
+
+
 Description:
 -> I used html , CSS and JavaScript to make this web calculator.
 ->I've used js for the functioning as a real man made calculator.But i've only added some basic components of arithmatic operatiions like +,-,* and/.
